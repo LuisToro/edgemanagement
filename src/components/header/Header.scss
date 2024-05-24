@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 70px;
+  background-color: var(--bg-color);
+
+  .logo {
+    .logo-img {
+      width: 370px;
+      height: 75px;
+    }
+  }
+
+  nav {
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+
+      li {
+        text-decoration: none;
+        list-style: none;
+
+        .nav-link {
+          font-size: 1.2rem;
+          color: var(--text-color);
+          text-decoration: none;
+        }
+
+        .nav-link-active {
+          color: var(--primary-color);
+        }
+      }
+    }
+  }
+}
