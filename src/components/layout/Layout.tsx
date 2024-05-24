@@ -12,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <>
       <Header />
       <div className="layout-container">
-        <main>{children}</main>
+        <main className="container">{children}</main>
       </div>
       <Footer />
     </>

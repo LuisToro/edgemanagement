@@ -14,7 +14,7 @@ const Home: React.FC = () => {
           alt="image"
         />
         <Text>
-          <h4>Accounting, and Financial</h4>
+          <h4><strong>Accounting, and Financial</strong></h4>
           <p>
             With a dedicated team of skilled accounting and finance
             professionals, we combine our insights and experience to transform
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
           alt="image"
         />
         <Text>
-          <h4>Pooled Financial Resources</h4>
+          <h4><strong>Pooled Financial Resources</strong></h4>
           <p>
             The Edge Business Group operates as one from a financial
             perspective: each company is an equal participant in the pooled
@@ -49,7 +49,7 @@ const Home: React.FC = () => {
           alt="image"
         />
         <Text>
-          <h4>Corporate Governance and Corporate Strategy</h4>
+          <h4><strong>Corporate Governance and Corporate Strategy</strong></h4>
           <p>
             Each of the companies within the Edge Business Group operates with
             its own Board of Directors and adheres to a strict set of good

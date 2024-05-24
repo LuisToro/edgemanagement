@@ -1,3 +1,11 @@
 .layout-container {
   background-color: #e0e0db;
+  padding: 70px 0;
+
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    min-height: 60vh;
+  }
 }
