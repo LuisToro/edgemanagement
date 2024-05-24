@@ -1,0 +1,42 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  background-color: #e0e0db;
+  align-items: center;
+  gap: 80px;
+
+  .form {
+    width: 100%;
+
+    .form-group {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+    }
+    label {
+      font-size: 18px;
+      display: block;
+      padding: 10px 0;
+    }
+
+    input {
+      width: 100%;
+      padding: 20px;
+      border: none;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 40px;
+    }
+    button {
+      margin: 10px 0;
+      padding: 20px 40px;
+      font-size: 18px;
+      background-color: #86a3ba;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

@@ -4,6 +4,17 @@
   --bg-color: #2a2829;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 78px;
+}
 
 h3 {
   font-size: 45px;

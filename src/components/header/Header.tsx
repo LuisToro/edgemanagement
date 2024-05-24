@@ -24,7 +24,7 @@ const Header: React.FC = () => {
               Home
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/our-team" className={getLinkClass('/our-team')}>
               Our Team
             </Link>
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
             <Link to="/the-group" className={getLinkClass('/the-group')}>
               The Group
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/contact" className={getLinkClass('/contact')}>
               Contact
