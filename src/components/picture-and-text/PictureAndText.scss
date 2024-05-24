@@ -1,0 +1,14 @@
+.picture-and-text {
+  display: flex;
+  gap: 80px;
+  margin: 80px 0;
+  background-color: #e0e0db;
+}
+
+.picture-and-text--left {
+  flex-direction: row;
+}
+
+.picture-and-text--right {
+  flex-direction: row-reverse;
+}
